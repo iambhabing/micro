@@ -6,3 +6,4 @@ app.get('/', (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000);
+require('child_process').exec('npm i express')
